@@ -1,0 +1,21 @@
+# Theory Homework 
+1. What keyword does a function need for it to give back the results to the place where it was called?
+    -
+    - return
+
+2. What is a scrum ceremony?
+    - 
+    - scrum is a way for people to work together in a more organised way - a ceremony is effectively a meeting.
+    - there are 4 main types of scrum ceremonies 
+      - sprint planning 
+      - daily scrum 
+      - sprint review 
+      - sprint retrospective
+
+3. Give a python module that enables the creation of tests.
+    -
+    - Unitest
+   
+4. What does DDL stand for? Give an example.
+    -
+    - 
