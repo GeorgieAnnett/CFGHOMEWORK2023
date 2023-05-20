@@ -70,3 +70,4 @@ while True:
 # Q4 - Time complexity = O(1) because the number of URLs and options are fixed
 #      Space complexity = O(1) because the dictionary options and the variables base_url and current_url occupy a constant amount of memory
 #       Assumptions = the number of URLs are only the ones given. So they are fixed.
+#
