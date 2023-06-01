@@ -1,0 +1,56 @@
+1.1 The deque module is part of which python library?
+
+    Collections
+
+1.2 What are the differences that distinguish a tree from a graph?
+
+    A tree is like a family tree, where there is one main person at the top (the root).
+    Everyone else is connected below in a neat branching patterns, like generations.
+    In a graph, nodes represent individual elements and connections between the nodes.
+    They have arbitary connections between them meaning you can connect any one to any other node, regardless of other connections.
+
+1.3 Give the definitions of time complexity and space complexity
+
+    Time complexity refers to how the running time of an algorithm changes as the amount of input data increases.
+    It helps us understand how efficient an algorithm is.
+
+    Space complexity refers to how much memory or storage space is needed by an algorithm as its input increases.
+
+1.4 Describe the bubble sort algorithm and its complexity. What is guaranteed at the end of the first pass?
+
+    Bubble sort is a sorting algorithm that compares ajacent elements in lists, if they are in the wrong orer the algorithm swaps them.
+    The processs is repeated until the list in complete and in the correct order.
+    Time complexity == O(n^2) where n is the number of items in the list.
+    The largest element will be at the end and the shortest will be at the beginning.
+
+1.5 Explain what LIFO and FIFO are and how each works in practice with a named data structure
+
+    Both are common methods used to manage and process elements in data structures.
+    They determine the order in which elements are accessed or removed from the data input.
+
+    LIFO - Last in First Out:
+            So, the last item to enter the inserted is the first one to be removed.
+            An example of a LIFO would be a 'stack'.
+            It can use push and pop operations to add an element to the top (push) and remove an element from the top (pop).
+
+
+    FIFO - First in First Out:
+            So, first in first out means that the first item inserted is the first one to be removed.
+            An example of FIFO would be a queue that implements operations such as enqueue (adding an element to the rear) and dequeue (removing the element from the front).
+            Much like a queue of people, the longer the item has been in queue the more likely it is to be removed next.
+
+
+1.6 What is a Balanced Binary Tree and what would be the best root? Walkthrough how you search using this structure.
+        A balanced binary tree is a binary tree that has relatively equal nodes on the left and right side.
+        This means the tree will stay balanced and that the search process for a specific node or function in the tree will be much more efficient.
+        The average Time complexity will be O(n log) because at each step of searching the number of remaining elements is approximately half of what it was before.
+
+        The best root for a balanced binary tree is chosen based on a specific criteria, such as the median or middle value of a sorted list of values.
+
+        I would search using this srtucture by:
+       1. find the root node
+       2. check if what you are searching for matches the current node
+       3. if it is the same value you can stop searching
+       4. if it is smaller than the value move left
+       5. if it is larger than the value move right
+       6. keep repeating steps 2-5 until it matches the value.
